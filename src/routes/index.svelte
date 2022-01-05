@@ -12,6 +12,14 @@
     </div>
 
     <div class="storyWrapper">
+        <p class="storyLink"><a href="https://www.dailymail.co.uk/news/article-10372327/Venmo-PayPal-Cash-App-report-transactions-totaling-600-IRS.html">
+            Venmo, PayPal and Cash App will now have to report transactions totaling more than $600 to the IRS as Biden plans to ramp up financial enforcement</a></p>
+        <p class="excerpt">
+            This includes ALL third party payment processors... including Stripe and Square. Apparently it's only for goods and services... but who knows where this is going to stop because a shit ton of online companies use third party processors for their payments.
+        </p>
+    </div>
+
+    <div class="storyWrapper">
         <p class="storyLink"><a href="https://thepostmillennial.com/mayo-clinic-to-fire-700-employees-for-not-obeying-vaccine-mandate?utm_campaign=64487">Mayo Clinic to fire 700 employees for not obeying vaccine mandate</a></p>
         <p class="excerpt">
             Roughly 700 workers will lose their jobs at the prestigious Mayo Clinic for not abiding by the health system's vaccine mandate policy.
