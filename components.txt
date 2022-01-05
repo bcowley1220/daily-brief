@@ -1,0 +1,6 @@
+<div class="storyWrapper">
+        <p class="storyLink"><a href="">Story Link</a></p>
+        <p class="excerpt">
+            Excerpt Copy
+        </p>
+</div>
