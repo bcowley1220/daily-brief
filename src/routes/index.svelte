@@ -1,5 +1,108 @@
 <h1>The Daily Brief will be in descending order. Stay Frosty.</h1>
 
+<h2>1-7-2022</h2>
+<section class="dailySection">
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.dailymail.co.uk/news/article-10376117/Seattle-cops-staged-sightings-Proud-Boys-public-police-radio-spook-Floyd-protesters.html"><strong>Seattle cops made up sightings in radio transmissions of armed Proud Boys to scare autonomous 'CHOP'...</strong>
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.cbsnews.com/news/10-amazing-facts-about-pfizers-23b-bextra-settlement/">
+            10 Amazing Facts About Pfizer's $2.3B Bextra Settlement
+            <p class="excerpt">
+                Historical malfeasant behavior that is potentially applicable to current event.
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.cnbc.com/2022/01/07/hiring-falters-in-december-as-payrolls-rise-only-199000.html">
+            Hiring falters in December as payrolls rise only 199,000, though the unemployment fell to 3.9%
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.foxnews.com/health/fda-ordered-to-speed-up-release-of-approval-data-for-covid-19-vaccine">
+            FDA ordered to speed up release of approval data for COVID-19 vaccine
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.realcleardefense.com/articles/2022/01/06/putins_calculation_for_war_is_sincere_810817.html">
+            Putin's Calculation for War Is Sincere
+            <p class="excerpt">
+                Interesting perspective...
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://thenationalpulse.com/2022/01/07/pfizer-professor-lectured-at-wuhan-lab/">
+            REVEALED: Pfizer’s Link to the Wuhan Lab
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.cnbc.com/2022/01/06/hedge-funds-are-selling-tech-shares-at-their-fastest-pace-in-a-decade-as-rates-spike.html">
+            Hedge funds are selling tech shares at their fastest pace in a decade as rates spike
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.ucsusa.org/resources/merck-manipulated-science-about-drug-vioxx">
+            Merck Manipulated the Science about the Drug Vioxx
+            <p class="excerpt">
+                Historical malfeasant behavior that is potentially applicable to current event.
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.wsj.com/articles/kazakhstan-leader-gives-security-forces-order-to-shoot-without-warning-11641548642">
+            Kazakhstan’s President Gives Security Forces Order to Shoot to Kill Without Warning
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.wsj.com/articles/kazakhstan-leader-gives-security-forces-order-to-shoot-without-warning-11641548642">
+            Kazakhstan’s President Gives Security Forces Order to Shoot to Kill Without Warning
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+    <div class="storyWrapper">
+        <a class="storyLink" href="https://www.wsj.com/articles/kazakhstan-leader-gives-security-forces-order-to-shoot-without-warning-11641548642">
+            Kazakhstan’s President Gives Security Forces Order to Shoot to Kill Without Warning
+            <p class="excerpt">
+                
+            </p>
+        </a>
+    </div>
+
+</section>
+
 <h2>1-5-2022</h2>
 <section class="dailySection">
     
@@ -126,11 +229,14 @@
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        padding: 1em;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         margin-bottom: 1em;
         min-height: 8em;
         border-radius: 4px;
+    }
+    .storyLink {
+        padding: 1em;
+        text-decoration: none;
     }
     p.excerpt {
         font-size: .9em;

@@ -10,7 +10,7 @@
 <header>
 	<nav class="navbar" role="navigation" aria-label="main navigation">
 		<div class="navbar-brand">
-			<a href="/verified/home" class="navbar-item businessTitle">Daily Brief</a>
+			<a href="/" class="navbar-item businessTitle">Daily Brief</a>
 
 			<a
 				role="button"
@@ -27,31 +27,34 @@
 		</div>
 
 		<div id="navbarBasicExample" class="navbar-menu">
-			<div class="navbar-start" />
+			<div class="navbar-start" ></div>
 
 			<div class="navbar-end">
-				<!-- <div class="navbar-item">
-					<div class="buttons">
+				<div class="navbar-item">
+					<div class="">
 						<div>
-							<div class="logout">
-								<img src="../images/info.svg" alt="Info" width="16px" title="Info" />
-							</div>
+							<a href="/" class='links'>Brief</a>
 						</div>
 
-						<div on:click={logOut}>
-							<div class="logout">
-								<img src="../images/logout.png" alt="Log Out Icon" width="16px" title="Logout?" /> Log
-								Out
-							</div>
+						<div>
+							<a href="/media" class='links'>Bingo</a>
 						</div>
-					</div> -->
-				<!-- </div> -->
+					</div> 
+				 </div>
 			</div>
 		</div>
 	</nav>
 </header>
 
 <style>
+	.links {
+		color: white;
+	}
+	header {
+		background: rgb(167, 165, 165);
+		width: 100%;
+		height: 10%;
+	}
 	.businessTitle {
 		color: hsl(130deg 34% 54%);
 	}

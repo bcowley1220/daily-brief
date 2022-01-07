@@ -3,7 +3,7 @@
 </script>
 
   
-<!-- <Header/> -->
+<Header/>
 
 
 <main>
@@ -43,11 +43,7 @@ body {
 div#sidebar , main {
   height: 93%;
 }
-Header {
-  background: lightgreen;
-  width: 100%;
-  height: 10%;
-}
+
 div#sidebar {
   width: 15%;
 }
