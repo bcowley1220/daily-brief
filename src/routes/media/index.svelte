@@ -1,5 +1,5 @@
 <script>
-	let imageArray = [
+	let imageArray2020 = [
 		'apocalypse-bingo-just-keeps-on-giving-who-had-race-war-for-june-meme.jpg',
 		'coinshortage.jpeg',
 		'cokeboar.jpeg',
@@ -10,18 +10,34 @@
 		'nov-godzilla.jpeg',
 		'racewar.jpeg',
 		'superval.jpg'
-	];
+	]
+
+	let imageArray2022 = [
+		'20220109-1.jpg',
+		'20220109.jpg',
+		'20220110-1.jpg',
+	]
 </script>
 
 <h3>Apocalypse Bingo 2022</h3>
 
-<div class="bingoCard">
+<div class="bingoCard image">
     <img class='bingo' src="2022bingo.png" alt="BingoCard">
 </div>
 
+<ul class='apocList'>
+	{#each imageArray2022 as image, i}
+		<li class="image">
+			<img src={image} alt="" class="" height="" />
+		</li>
+	{/each}
+</ul>
+
+
+
 <h3>Apocalypse Bingo 2020 Memes/Results</h3>
 <ul class='apocList'>
-	{#each imageArray as image, i}
+	{#each imageArray2020 as image, i}
 		<li class="image">
 			<img src={image} alt="" class="" height="" />
 		</li>
