@@ -39,6 +39,10 @@
 						<div>
 							<a href="/media" class='links'>Bingo</a>
 						</div>
+
+						<div>
+							<a href="/rona" class='links'>Rona Docs</a>
+						</div>
 					</div> 
 				 </div>
 			</div>

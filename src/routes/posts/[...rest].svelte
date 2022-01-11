@@ -1,1 +1,0 @@
-<p>This is the rest route</p>

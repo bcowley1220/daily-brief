@@ -1,1 +1,0 @@
-<h2>Daily Briefs</h2>

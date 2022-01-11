@@ -78,5 +78,8 @@ div#sidebar {
   height: 100% !important;
   display: flex !important;
 }
-
+.storyWrapper {
+        border-bottom: solid 1px lightgrey;
+        padding: 1em;
+    }
 </style>
