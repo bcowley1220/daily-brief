@@ -1,6 +1,6 @@
 
 <section class="dailySection">
-    <details open>
+    <details>
         <summary><strong>1-12-2022</strong></summary>
         <div class="storyWrapper">
             <a
