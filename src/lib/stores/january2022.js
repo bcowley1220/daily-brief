@@ -542,12 +542,50 @@ const days = {
             tags: ['covid'],
             important: false
         },
+        {
+            url: `https://www.zerohedge.com/news/2022-01-19/truth-or-fiction-vaccines-protect-against-hospitalization-death`,
+            title: `Truth or Fiction: Vaccines Protect Against Hospitalization & Death`,
+            tags: ['covid'],
+            important: true
+        },
+        {
+            url: `https://justthenews.com/government/congress/biden-its-clear-me-were-going-have-break-build-back-better-act-big-chunks`,
+            title: `Biden: 'It's clear to me' Democrats have to break up Build Back Better Act into 'big chunks'`,
+            tags: ['reset', ],
+            important: false
+        },
+        {
+            url: `https://www.whitehouse.gov/briefing-room/statements-releases/2021/07/09/fact-sheet-executive-order-on-promoting-competition-in-the-american-economy/`,
+            title: `FACT SHEET: Executive Order on Promoting Competition in the American Economy 7-9-21 (Biden claims he just signed this)`,
+            tags: ['biden'],
+            important: false
+        },
+        {
+            url: `https://sdgs.un.org/2030agenda`,
+            title: `Transforming our world: the 2030 Agenda for Sustainable Development`,
+            tags: ['reset'],
+            important: true
+        },
+        {
+            url: `https://unesdoc.unesco.org/ark:/48223/pf0000245656`,
+            title: `Education 2030`,
+            tags: ['reset'],
+            important: true
+        },
         // {
         //     url: ``,
         //     title: ``,
         //     tags: [],
         //     important: false
         // },
+        // {
+        //     url: ``,
+        //     title: ``,
+        //     tags: [],
+        //     important: false
+        // },
+
+        
 
     ]
     }
