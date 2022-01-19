@@ -1,8 +1,9 @@
 import { writable } from "svelte/store";
 
 const days = {
-    fourteenToSeventeen: 
-    [
+    fourteenToSeventeen: {
+        date: '1/14/22-1/17/22',
+        stories: [
         {
             url: "https://www.bbc.com/news/uk-politics-59984380",
             title: "MI5 warning over 'Chinese agent' in Parliament",
@@ -225,33 +226,331 @@ const days = {
             tags: ['michigan'],
             important: false
         },
+    ]},
+    eighteenToNineteen: {
+        date: '1/18/22-1/19/22',
+        stories: [
+        {
+            url: "https://www.zerohedge.com/markets/blackrocks-fink-insists-stakeholder-capitalism-isnt-woke-its-just-good-business",
+            title: `BlackRock's Fink Insists "Stakeholder Capitalism" Isn't "Woke" - It's Just Good Business`,
+            tags: ['reset'],
+            important: true
+        },
+        {
+            url: "https://www.zerohedge.com/markets/chinas-property-sector-crashing-again-and-time-it-has-reached-countrys-biggest-developer",
+            title: "China's Property Sector Is Crashing Again And This Time It Has Reached The Country's Biggest Developer",
+            tags: ['finance', 'reset'],
+            important: false
+        },
+        {
+            url: "https://www.zerohedge.com/covid-19/dr-peter-mccullough-official-covid-narrative-has-crumbled",
+            title: `Dr. Peter McCullough: Official COVID "Narrative Has Crumbled"`,
+            tags: ['covid'],
+            important: true
+        },
+        {
+            url: `https://www.zerohedge.com/commodities/china-coal-production-hits-record-avoid-energy-crisis`,
+            title: `China Coal Production Hits Record To Avoid Energy Crisis`,
+            tags: ['reset', 'energy'],
+            important: false
+        },
+        {
+            url: `https://www.zerohedge.com/personal-finance/make-preparations-canadian-vaxx-mandate-cross-border-trucking-now-effect-domestic`,
+            title: `Make Preparations! Canadian Cross Border Trucking Vaxx Mandate Now In Effect, Domestic Trucking Mandate Starts Next Week`,
+            tags: ['covid', 'reset'],
+            important: false
+        },
+        {
+            url: `https://www.foxbusiness.com/politics/rand-paul-report-rising-inflation`,
+            title: `Rand Paul releases report on rising inflation: 'It's only going to get worse'`,
+            tags: ['inflation', 'reset'],
+            important: false
+        },
+        {
+            url: `https://justthenews.com/nation/states/defense-requests-immunity-fbi-agents-informants-whitmer-kidnapping-plot`,
+            title: `Defense requests immunity for FBI agents, informants in Whitmer kidnapping plot`,
+            tags: ['whitmer', 'fbi'],
+            important: false
+        },
+        {
+            url: `https://apnews.com/article/coronavirus-pandemic-health-kansas-public-health-c06b1a5a74e284cf6fd26527728818fd`,
+            title: `Kansas will stop ‘futile’ COVID-19 contact tracing`,
+            tags: ['kansas', 'covid'],
+            important: false
+        },
+        {
+            url: `https://dnyuz.com/2022/01/19/its-all-just-wild-tech-start-ups-reach-a-new-peak-of-froth/`,
+            title: `‘It’s All Just Wild’: Tech Start-Ups Reach a New Peak of Froth`,
+            tags: ['tech', 'start up'],
+            important: false
+        },
+        {
+            url: `https://www.studyfinds.org/mass-extinction-already-underway/`,
+            title: `Another mass extinction on Earth is already underway, study warns`,
+            tags: ['reset'],
+            important: false
+        },
+        {
+            url: `https://www.villagevoice.com/1999/10/26/the-scary-days-when-thousands-were-lobotomized-on-long-island/`,
+            title: `The scary days when thousands were lobotomized on Long Island`,
+            tags: ['medical'],
+            important: false
+        },
+        {
+            url: `https://www.stltoday.com/news/national/govt-and-politics/oil-flow-resumes-at-iraq-turkey-pipeline-following-blast/article_f72c55a0-05f6-5e28-8ae6-c09fa841254d.html`,
+            title: `Oil flow resumes at Iraq-Turkey pipeline following blast`,
+            tags: ['oil', 'global'],
+            important: false
+        },
+        {
+            url: `https://abc13.com/dr-joseph-varon-covid-treatments-houston-hospital-ivermectin/11485872/`,
+            title: `COVID patients are crossing state and international lines to get treatment from this Houston doctor`,
+            tags: ['covid'],
+            important: true
+        },
+        {
+            url: `https://www.politico.com/news/2022/01/19/kevin-mccarthy-tech-silicon-valley-527292`,
+            title: `McCarthy’s love-hate relationship with Silicon Valley`,
+            tags: ['politics', 'swamp'],
+            important: false
+        },
+        {
+            url: `https://borgenproject.org/water-pollution-in-china/`,
+            title: `WATER POLLUTION IN CHINA IS THE COUNTRY’S WORST ENVIRONMENTAL ISSUE`,
+            tags: ['china', ],
+            important: true
+        },
+        {
+            url: `https://www.tomshardware.com/news/intel-to-unveil-bitcoin-mining-bonanza-mine-asic-at-chip-conference`,
+            title: `Intel To Unveil Bitcoin-mining 'Bonanza Mine' Chip at Upcoming Conference (Updated)`,
+            tags: ['tech', 'crypto'],
+            important: true
+        },
+        {
+            url: `https://www.zerohedge.com/geopolitical/people-who-played-call-duty-real-life-are-getting-worried`,
+            title: `The People Who Played "Call Of Duty" In Real Life Are Getting Worried`,
+            tags: ['russia', 'ukraine'],
+            important: false
+        },
+        {
+            url: `https://www.nationalreview.com/the-morning-jolt/the-administration-knew-the-afghan-air-force-would-collapse-after-a-u-s-withdrawal/`,
+            title: `The Administration Knew the Afghan Air Force Would Collapse after a U.S. Withdrawal`,
+            tags: ['afganistan'],
+            important: false
+        },
+        {
+            url: `https://unherd.com/thepost/israeli-vaccine-chief-we-have-made-mistakes/`,
+            title: `Israeli vaccine chief: “We have made mistakes”`,
+            tags: ['israel', 'vaccine'],
+            important: true
+        },
+        {
+            url: `https://ca.news.yahoo.com/only-china-virus-outbreak-shale-084115815.html`,
+            title: `Traders Bet That Oil at $100 Is a Question of When, Not If`,
+            tags: ['oil',],
+            important: false
+        },
+        {
+            url: `https://finance.yahoo.com/news/facebook-working-mysterious-authentic-robot-165815802.html`,
+            title: `Facebook working on mysterious ‘authentic’ robot eyeball that could track where humans are looking`,
+            tags: ['facebook', 'reset'],
+            important: false
+        },
+        {
+            url: `https://www.dailywire.com/news/watchdog-fauci-has-handsomely-profited-during-pandemic`,
+            title: `Watchdog: ‘Fauci Has Handsomely Profited’ During Pandemic`,
+            tags: ['covid', 'fauci'],
+            important: false
+        },
+        {
+            url: `https://thenationalpulse.com/2022/01/18/new-video-analysis-ashli-babbitt-chatted-with-capitol-officers-and-attempt-to-calm-protesters-before-being-executed/`,
+            title: `New Video Analysis: Ashli Babbitt Chatted With Capitol Officers and Attempt to Calm Protesters Before Being Executed.`,
+            tags: ['jan 6th', 'fbi'],
+            important: true
+        },
+        {
+            url: `https://www.theblaze.com/news/hawaii-may-require-all-travelers-to-have-covid-booster-in-order-to-be-fully-vaccinated`,
+            title: `Hawaii may require all travelers to have COVID booster in order to be 'fully vaccinated' and skip quarantine`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://www.breitbart.com/economy/2022/01/18/exclusive-un-funds-migrant-wave-to-the-u-s/`,
+            title: `Exclusive: UN Funds Migrant Wave Flooding to the U.S.`,
+            tags: ['reset', ],
+            important: false
+        },
+        {
+            url: `https://www.creators.com/read/oliver-north/01/22/how-the-left-uses-fear-to-control-your-life`,
+            title: `How the Left Uses Fear to Control Your Life`,
+            tags: ['reset'],
+            important: false
+        },
+        {
+            url: `https://www.creators.com/read/ben-shapiro/01/22/the-quest-to-destroy-work`,
+            title: `The Quest to Destroy Work`,
+            tags: ['reset'],
+            important: false
+        },
+        {
+            url: `https://www.theverge.com/2022/1/18/22889903/democrats-targeted-advertising-facebook-google-surveillance?scrolla=5eb6d68b7fedc32c19ef33b4`,
+            title: `Democrats unveil bill to ban online ‘surveillance advertising’`,
+            tags: ['surveillance'],
+            important: false
+        },
+        {
+            url: `https://techcrunch.com/2022/01/19/israeli-fintech-personetics-raises-85m-for-tools-to-help-incumbents-personalize-banking-services-to-compete-with-neobanks/`,
+            title: `Israeli fintech Personetics raises $85M for tools to help incumbents personalize banking services to compete with neobanks`,
+            tags: ['bank'],
+            important: false
+        },
+        {
+            url: `https://www.cnbc.com/2022/01/19/china-smartphone-shipments-jump-in-2021-but-below-pre-pandemic-level.html`,
+            title: `Chip shortage and Covid weigh on China’s smartphone market even as it bounced back from pandemic lows`,
+            tags: ['covid', 'china', ],
+            important: false
+        },
+        {
+            url: `https://techcrunch.com/2022/01/19/ambient-ai-security-without-facial-recognition/`,
+            title: `Ambient.ai aims to provide AI-powered building security, minus bias and privacy pitfalls`,
+            tags: ['ai', 'surveillance'],
+            important: false
+        },
+        {
+            url: `https://brownstone.org/articles/a-partial-list-of-the-myriad-abuses-that-facemasks-inflict-on-our-children/`,
+            title: `A Partial List of the Myriad Abuses That Facemasks Inflict on Our Children`,
+            tags: ['covid'],
+            important: true
+        },
+        {
+            url: `https://brownstone.org/articles/mandates-are-about-political-control-not-health/`,
+            title: `Mandates Are About Political Control, Not Health`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://brownstone.org/articles/five-ways-that-people-refused-to-be-fooled-by-lockdown-madness/`,
+            title: `Five Ways That People Refused to be Fooled by Lockdown Madness`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://brownstone.org/articles/the-shortage-of-health-care-workers-has-a-cause/`,
+            title: `The Shortage of Health Care Workers Has a Cause`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://brownstone.org/articles/what-might-have-been-calm-protection-and-care/`,
+            title: `What Might Have Been: Calm, Protection, and Care`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://safeguarddefenders.com/en/blog/involuntary-returns-report-exposes-long-arm-policing-overseas`,
+            title: `Involuntary Returns – report exposes long-arm policing overseas (China's Sky Net)`,
+            tags: ['china'],
+            important: true
+        },
+        {
+            url: `https://trialsitenews.com/medicare-private-insurance-pays-out-130m-for-ivermectin-covid-19-prescriptions-in-2021/`,
+            title: `Medicare & Private Insurance Pay out $130m for Ivermectin COVID-19 Prescriptions in 2021`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://rumble.com/vsc1su-dr.-peter-mccullough-reveals-the-six-things-everyone-should-have-in-their-o.html`,
+            title: `Dr. Peter McCullough Reveals the Six Things Everyone Should Have in Their 'Over-the-Counter Toolbox'`,
+            tags: ['covid', ' protocol'],
+            important: true
+        },
+        {
+            url: `https://www.foxnews.com/opinion/5-kids-shot-chicago-pastor-brooks`,
+            title: `5 kids shot in Chicago — Pastor Brooks asks where is BLM, NAACP?`,
+            tags: ['race', 'blm',],
+            important: false
+        },
+        {
+            url: `https://finance.yahoo.com/news/google-hires-paypal-vet-reset-170000018.html`,
+            title: `Google Hires PayPal Vet to Reset Strategy After Its Banking Retreat`,
+            tags: ['google', 'reset'],
+            important: false
+        },
+        {
+            url: `https://cryptopotato.com/google-considers-allowing-users-to-store-crypto-in-digital-cards-report/`,
+            title: `Google Considers Allowing Users to Store Crypto in Digital Cards (Report)`,
+            tags: ['google', 'reset'],
+            important: false
+        },
+        {
+            url: `https://dailycaller.com/2022/01/19/malik-faisal-akram-jewish-synagogue-hostage-mosque/`,
+            title: `Synagogue Hostage Taker Was Kicked Out Of Mosque Days Earlier For Erratic Behavior, Had Been On UK Watchlist`,
+            tags: ['terrorism', 'fbi'],
+            important: false
+        },
+        {
+            url: `https://dailycaller.com/2022/01/18/exclusive-arrest-warrants-count-as-id-for-migrants-at-airport-security-tsa-says/`,
+            title: `EXCLUSIVE: Arrest Warrants Count As ID For Illegal Migrants At Airport Security, TSA Says`,
+            tags: ['illegals', 'tsa'],
+            important: false
+        },
+        {
+            url: `https://www.cnbc.com/2022/01/18/mortgage-rates-jump-again-causing-headaches-for-homebuyers.html`,
+            title: `Mortgage rates jump again, causing headaches for homebuyers`,
+            tags: ['morgate',],
+            important: false
+        },
+        {
+            url: `https://thenationalpulse.com/2022/01/18/debate-commission-co-chair-participated-in-ccp-meetings/`,
+            title: `EXC: Presidential Debate Commission Chief Held ‘Off-The-Record’ Meetings With Chinese Communist Propagandists, And Xi Jinping.`,
+            tags: ['china', 'elections'],
+            important: false
+        },
+        {
+            url: `https://nypost.com/2022/01/19/meta-wants-to-track-peoples-facial-expressions-in-metaverse/`,
+            title: `Meta wants to track people’s facial expressions in metaverse`,
+            tags: ['meta', 'surveillance'],
+            important: false
+        },
+        {
+            url: `https://www.newsweek.com/starbucks-which-employs-228k-us-reverses-covid-vaccine-mandate-after-scotus-ruling-1670855`,
+            title: `Starbucks, Which Employs 228K in U.S., Reverses COVID Vaccine Mandate After SCOTUS Ruling`,
+            tags: ['mandate', 'covid'],
+            important: false
+        },
+        {
+            url: `https://justthenews.com/government/white-house/white-house-says-it-will-make-400-million-n95-masks-available-americans-free`,
+            title: `White House says it will make 400 million N95 masks available to Americans for free`,
+            tags: ['covid'],
+            important: false
+        },
+        {
+            url: `https://www.wsj.com/articles/boom-times-for-washington-congressional-budget-office-tax-revenue-treasury-11642451598`,
+            title: `Washington Cashes In on Inflation`,
+            tags: ['inflation', 'reset'],
+            important: false
+        },
+        {
+            url: `https://www.wsj.com/articles/biden-to-expand-national-security-agency-role-in-government-cybersecurity-11642604412?mod=djemalertNEWS`,
+            title: `Biden to Expand National Security Agency Role in Government Cybersecurity`,
+            tags: ['reset', 'surveillance'],
+            important: false
+        },
+        {
+            url: `https://pierrekory.substack.com/p/how-i-lost-three-icu-jobs-during?r=iutjw&utm_campaign=post&utm_medium=web`,
+            title: `How I Lost Three ICU Jobs During the COVID-19 Pandemic - Job 1`,
+            tags: ['covid'],
+            important: false
+        },
         // {
-        //     url: "",
-        //     title: "",
-        //     tags: [],
-        //     important: false
-        // },
-        // {
-        //     url: "",
-        //     title: "",
-        //     tags: [],
-        //     important: false
-        // },
-        // {
-        //     url: "",
-        //     title: "",
-        //     tags: [],
-        //     important: false
-        // },
-        // {
-        //     url: "",
-        //     title: "",
+        //     url: ``,
+        //     title: ``,
         //     tags: [],
         //     important: false
         // },
 
-
-    ] 
+    ]
+    }
 }
 
 // dayNumber: [

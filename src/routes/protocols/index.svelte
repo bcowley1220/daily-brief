@@ -1,30 +1,20 @@
 <script>
-    export let stories
-    export let date
-    export let dialog
-    console.log(dialog)
-    let open = dialog ? 'open' : ""
+    import {protocolList} from '$lib/stores/protocols'
+    
 </script>
-
 <section class="dailySection">
-    <details {open}>
-        <summary><strong>{date}</strong></summary>
-        {#each stories as story}
+        <p><strong>Covid Protocols</strong></p>
+        {#each $protocolList as protocol}
             <div class="storyWrapper">
                 <a
                     class="storyLink"
-                    href={story.url}
+                    href={protocol.url}
                 >
-                <span class:important="{story.important == true}">{story.title}</span>
+                <span class:important="{protocol.important == true}">{protocol.title}</span>
                 <span></span>
                 </a>
             </div>
         {/each}
-
-        
-    </details>
-	
-
 </section>
 
 <style>

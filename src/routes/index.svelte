@@ -7,13 +7,12 @@
     import { janDays } from '$lib/stores/january2022';
     import TemplateDay from '$lib/days/templateDay.svelte'
     let today = $janDays.fourteenToSeventeen
-    let date = '1/14/22-1/17/22'
     let open = 'open'
-    let closed = 'closed'
 </script>
 <h1>The Daily Brief will be in descending order. Stay Frosty.</h1>
 
-<TemplateDay {today} {date} bind:dialog={open}/>
+<TemplateDay bind:date={$janDays.eighteenToNineteen.date} bind:stories={$janDays.eighteenToNineteen.stories} bind:dialog={open}/>
+<TemplateDay bind:date={$janDays.fourteenToSeventeen.date} bind:stories={$janDays.fourteenToSeventeen.stories}/>
 <One1322 />
 <One1222/>
 <OneEleven22/>
